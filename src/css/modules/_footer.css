@@ -1,0 +1,33 @@
+footer {
+  background-color: #311818;
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  align-self: stretch;
+}
+.footer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+}
+
+.footer-block-heading {
+  font-family: "Alegreya Sans SC";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 1.8rem */
+  text-transform: uppercase;
+}
+
+.footer-block-detail {
+  font-family: Anybody;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 140%; /* 1.225rem */
+}
