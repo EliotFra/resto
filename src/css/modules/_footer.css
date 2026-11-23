@@ -7,12 +7,26 @@ footer {
   gap: 2rem;
   align-self: stretch;
 }
+
+@media (min-width: 1024px) {
+  footer {
+    flex-direction: row;
+    padding: 4rem;
+  }
+}
+
 .footer-block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
   align-self: stretch;
+}
+
+@media (min-width: 1024px) {
+  .footer-block {
+    flex: 1 0 0;
+  }
 }
 
 .footer-block-heading {
@@ -22,6 +36,12 @@ footer {
   font-weight: 800;
   line-height: 120%; /* 1.8rem */
   text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+  .footer-block-heading {
+    font-size: 2rem;
+  }
 }
 
 .footer-block-detail {
