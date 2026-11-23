@@ -1,0 +1,54 @@
+.form {
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.form-title {
+  font-size: 2rem;
+  line-height: 100%; /* 2rem */
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.form-field-input {
+  display: flex;
+  height: 3rem;
+  padding: 0 1rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(48, 23, 23);
+}
+
+.form-reservation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.form-button {
+  display: flex;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  background: #ec551e;
+  color: var(--background, hsl(41.1765deg 81% 91%));
+  font-size: 1rem;
+  font-weight: 300;
+}

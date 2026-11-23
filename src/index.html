@@ -27,5 +27,60 @@
         <a href="" class="header-nav-link">Réserver</a>
       </nav>
     </header>
+    <div class="form">
+      <h2 class="form-title">Réserver une table</h2>
+      <form class="form-fields">
+        <div class="form-field">
+          <label for="Nom">Nom</label>
+          <input
+            class="form-field-input"
+            id="Nom"
+            type="text"
+            placeholder="Camille Martin"
+          />
+        </div>
+        <div class="form-field">
+          <label for="E-mail">E-mail</label>
+          <input
+            class="form-field-input"
+            id="email"
+            type="email"
+            placeholder="camille@exemple.ch"
+          />
+        </div>
+        <div class="form-reservation">
+          <div class="form-field">
+            <label for="date">Date</label>
+            <input
+              class="form-field-input"
+              id="date"
+              type="date"
+              placeholder="12.06.2026"
+            />
+          </div>
+          <div class="form-field">
+            <label for="time">Heure</label>
+            <input
+              class="form-field-input"
+              id="time"
+              type="time"
+              placeholder="19h30"
+            />
+          </div>
+          <div class="form-field">
+            <label for="number">Personnes</label>
+            <input
+              class="form-field-input"
+              id="number"
+              type="number"
+              placeholder="2"
+              min="1"
+              max="10"
+            />
+          </div>
+        </div>
+      </form>
+      <button type="submit" class="form-button">Réserver</button>
+    </div>
   </body>
 </html>
